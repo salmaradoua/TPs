@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogueIno: articles</title>
+</head>
+<script>
+    function readMore(link){
+     var regex = /\bread\b/;
+     var article = link.parentNode;
+     if(regex.test(article.className)){
+       article.className = article.className.replace(regex, '');
+     }else{
+       article.className += ' read';
+   }
+}
+</script>
+<body>
+    <h3>Mes articles</h3>
+    <h4>html & css </h4>
+    <img src="images/htmlcss.png" alt="html css" width="300px" height="150px">
+    <p>gcjhgedcfgrziegfyirebfv bfregvfhbv bfbvqegfuigvhio <a href="#"><span >...Lire plus</span></a> </p>
+    <h4>hJavascript </h4>
+    <img src="images/javascript.png" alt="javascript" width="100px" height="100px">
+    <p>gcjhgedcfgrziegfyirebfv bfregvfhbv bfbvqegfuigvhio<a href="#"><span >...Lire plus</span></a> </p>
+    <h4>Flask </h4>
+    <img src="images/flask.png" alt="flask" width="300px" height="150px">
+    <p>gcjhgedcfgrziegfyirebfv bfregvfhbv bfbvqegfuigvhio <a href="#"><span >...Lire plus</span></a> 
+    </p>
+    <p>@ salma radoua 2021</p>
+
+</body>
+</html>
