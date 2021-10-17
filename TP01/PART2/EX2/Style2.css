@@ -1,0 +1,28 @@
+.box {
+    
+    margin-right: 300px;   
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+
+  }
+ 
+         .carrer{  
+            
+    width: 100px;
+    height: 100px;
+    background : #2350ce;
+    /*Fixer une marge entre les boîtes*/
+    margin : 25px;
+    /*Aligner verticalement et horizontalement le contenu*/
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    text-decoration:none; 
+    font-size: 2em;
+    color:white;
+    font-weight:bold; 
+         }
+ 
